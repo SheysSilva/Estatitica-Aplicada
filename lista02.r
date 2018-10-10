@@ -48,9 +48,7 @@ hist(poisson)
 
 somatorio = function(){
   soma <- c()
-  for(i in 1:1000){
-    soma[i]  <- sum(rnorm(100, mean = 5, sd = 1))
-  }
+  for(i in 1:1000) soma[i]  <- sum(rnorm(100, mean = 5, sd = 1))
   return(soma)
 }
 
